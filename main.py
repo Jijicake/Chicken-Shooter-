@@ -76,7 +76,7 @@ while run:
                 if chicken_rect.colliderect(mouse_rect):
                     a = 0
                     point += 1
-                    print("HIT!!!!!!!!!!!")
+                    print("HIT!!!!!!!!!!!", point)
         if event.type == pygame.QUIT:
             pygame.quit()
     if a == 1000:
